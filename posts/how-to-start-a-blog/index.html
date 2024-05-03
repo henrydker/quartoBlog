@@ -179,16 +179,16 @@ categories: [walkthrough]
 <section id="publishing-with-github-pages" class="level2">
 <h2 class="anchored" data-anchor-id="publishing-with-github-pages">Publishing with GitHub Pages</h2>
 <p>I chose GitHub pages to publish this blog. It’s simple, free, and enables a very familiar git based workflow. Quarto lists a number of <a href="https://quarto.org/docs/publishing/">other options</a> if you feel you need fancier capabilities or you like spending money.</p>
-<p>Quarto already has a great walkthrough on <a href="https://quarto.org/docs/publishing/github-pages.html">publishing with GitHub Pages</a>. You do need to perform everything in the right order to make it work, so I’ll share my exact steps below.</p>
+<p>Quarto already has a great walkthrough on <a href="https://quarto.org/docs/publishing/github-pages.html">publishing with GitHub Pages</a>. I found the order of steps for this process to be a little less straightforward, so I’ll share my exact steps below.</p>
 <p>First, initialize a git repository for your blog project (if you’ve never done this before, <a href="https://code.visualstudio.com/docs/sourcecontrol/intro-to-git">this VS Code guide</a> should get you started). The repo needs to be public in order to use github pages if you’re using the free version of github.</p>
 <p>Before you publish, add <code>/_site/</code> to the new .gitignore file under <code>/.quarto/</code>. Also add</p>
 <pre><code>execute:
   freeze: auto</code></pre>
 <p>at the end of the _quarto.yml file.</p>
 <p>Now you can publish your project to github.</p>
-<p>Next, navigate to your new repository on GitHub’s website, and under Settings/Pages set branch to gh-pages.</p>
+<p>Next, navigate to your new repository on GitHub’s website, and under Settings/Pages set branch to gh-pages. continue to Settings/Actions/General, tick the bubble next to “Read and write permissions” under Workflow permissions, and save.</p>
 <p>At this point, we can render the site with VS Code command <strong>&gt;Quarto: Render</strong>, then publish by running in a terminal <code>quarto publish gh-pages</code></p>
-<p>I followed their suggestion to create a <a href="https://quarto.org/docs/publishing/github-pages.html#github-action">GitHub Action</a> to re-publish the blog whenever I commit a change to the repo. In this order, perform: 1) add setting to freeze computations (see their guide section) 2) run vscode command 3) in a terminal, run 4) create a github action YAML file by copying the below text and saving it to .github/workflows/publish.yaml in your project directory.</p>
+<p>Next, create a github action YAML file by copying the below text and saving it to .github/workflows/publish.yaml in your project directory.</p>
 <pre>on:
   workflow_dispatch:
   push:
