@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quartoBlog",
+    "section": "",
+    "text": "How to Start a Blog\n\n\n\n\n\n\nwalkthrough\n\n\n\n\n\n\n\n\n\nMay 3, 2024\n\n\nHenry Ker\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 3, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nHow to start a blog\n\n\n\n\n\n\nwalkthrough\n\n\n\n\n\n\n\n\n\nMay 3, 2024\n\n\nHenry Ker\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "How to start a blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html",
+    "href": "posts/how-to-start-a-blog/index.html",
+    "title": "How to Start a Blog",
+    "section": "",
+    "text": "I’ll be honest with you: I have no clue what front-end developers do. I think it involves JavaScript, and some form of HTML voodoo, and thumb wrestling with reactive layouts that just won’t react right. Luckily, when I set out to create this blog, a friend put me on to Quarto! Quarto is an amazing tool that lets you create beautiful blogs (and presentations, and books!) without having to leave your cozy jupyter notebook environment. There are of course simpler ways to create a blog (shout-out WordPress), but I wanted to be able to include runable code in my posts and have more control over format.\nThis post describes the steps I took to create and publish this blog. For the sake of brevity, I’ll gloss over the exact blow-by-blow and focus on broader steps. I assume that you are fairly comfortable knocking around a jupyter notebook, installing packages and all that (if not, I’m sure google can get you started). I used VS Code for this project, but I believe Quarto integrates well with a wide range of environments."
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html#blogging-for-back-end-devs",
+    "href": "posts/how-to-start-a-blog/index.html#blogging-for-back-end-devs",
+    "title": "How to Start a Blog",
+    "section": "",
+    "text": "I’ll be honest with you: I have no clue what front-end developers do. I think it involves JavaScript, and some form of HTML voodoo, and thumb wrestling with reactive layouts that just won’t react right. Luckily, when I set out to create this blog, a friend put me on to Quarto! Quarto is an amazing tool that lets you create beautiful blogs (and presentations, and books!) without having to leave your cozy jupyter notebook environment. There are of course simpler ways to create a blog (shout-out WordPress), but I wanted to be able to include runable code in my posts and have more control over format.\nThis post describes the steps I took to create and publish this blog. For the sake of brevity, I’ll gloss over the exact blow-by-blow and focus on broader steps. I assume that you are fairly comfortable knocking around a jupyter notebook, installing packages and all that (if not, I’m sure google can get you started). I used VS Code for this project, but I believe Quarto integrates well with a wide range of environments."
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html#why-to-start-a-blog",
+    "href": "posts/how-to-start-a-blog/index.html#why-to-start-a-blog",
+    "title": "How to Start a Blog",
+    "section": "Why to Start a Blog",
+    "text": "Why to Start a Blog\nI hope you find this post useful, but I must admit: I created it as much for my own benefit as yours! A very wise man once said that “The only difference between screwing around and science is writing it down.” I plan to use this blog to document and catalog any interesting projects I happen into, as an upgrade to my old “sticky note scribbles” system."
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html#getting-started-with-quarto",
+    "href": "posts/how-to-start-a-blog/index.html#getting-started-with-quarto",
+    "title": "How to Start a Blog",
+    "section": "Getting Started with Quarto",
+    "text": "Getting Started with Quarto\nQuarto has great documentation, I won’t waste pixels repeating it here. I followed their VS Code Quick Start guide far enough to see the sample page rendering, then jumped right into their Creating a Blog guide. Their system is very slick; once you have the project folder created, you can just create a new folder under posts, toss a index.ipynb or index.qmd in there (I stuck with notebooks), and you have a new post. Set the first cell of the notebook to raw text, rather than code or markdown, and paste in their special header (example below is the header for this post!)\n---\ntitle: \"How to Start a Blog\"\nauthor: \"Henry Ker\"\ndate: \"2024-05-03\"\ncategories: [walkthrough]\n---\n\n\nQuarto will automagically pull this information to add the post to your home page."
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html#creating-the-blog",
+    "href": "posts/how-to-start-a-blog/index.html#creating-the-blog",
+    "title": "How to Start a Blog",
+    "section": "Creating the Blog",
+    "text": "Creating the Blog\nQuarto has great documentation, I won’t waste pixels repeating it here. I followed their VS Code Quick Start guide far enough to see the sample page rendering, then jumped right into their Creating a Blog guide. Their system is very slick; once you have the project folder created, you can just create a new folder under posts, toss a index.ipynb or index.qmd in there (I stuck with notebooks), and you have a new post. Set the first cell of the notebook to raw text, rather than code or markdown, and paste in their special header (example below is the header for this post!)\n---\ntitle: \"How to Start a Blog\"\nauthor: \"Henry Ker\"\ndate: \"2024-05-03\"\ncategories: [walkthrough]\n---\n\n\nQuarto will automagically pull this information to add the post to your home page. You can also embed an image in your notebook (ala their example posts) to accompany the post title. You can preview the blog using VS Codes &gt;Quarto: Preview command on the index.qmd in your main project directory. You should see your new notebook as a post alongside their example posts, with everything already formatted nicely and linked up. At this point, you have a blog! I made a couple more changes, but if you’re happy with their defaults (and to be honest they are quite servicable), feel free to skip Customization and jump right to Publishing with Github Pages."
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html#publishing-with-github-pages",
+    "href": "posts/how-to-start-a-blog/index.html#publishing-with-github-pages",
+    "title": "How to Start a Blog",
+    "section": "Publishing with GitHub Pages",
+    "text": "Publishing with GitHub Pages\nI chose GitHub pages to publish this blog. It’s simple, free, and enables a very familiar git based workflow. Quarto lists a number of other options if you feel you need fancier configuration or you like spending money.\nQuarto already has a great walkthrough on publishing with GitHub Pages"
+  },
+  {
+    "objectID": "posts/how-to-start-a-blog/index.html#customization",
+    "href": "posts/how-to-start-a-blog/index.html#customization",
+    "title": "How to Start a Blog",
+    "section": "Customization",
+    "text": "Customization"
+  }
+]
