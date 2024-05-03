@@ -189,6 +189,7 @@ categories: [walkthrough]
 <p>Next, navigate to your new repository on GitHub’s website, and under Settings/Pages set branch to gh-pages. continue to Settings/Actions/General, tick the bubble next to “Read and write permissions” under Workflow permissions, and save.</p>
 <p>At this point, we can render the site with VS Code command <strong>&gt;Quarto: Render</strong>, then publish by running in a terminal <code>quarto publish gh-pages</code></p>
 <p>Next, create a github action YAML file by copying the below text and saving it to .github/workflows/publish.yaml in your project directory.</p>
+<p><code>publish.yml</code></p>
 <pre>on:
   workflow_dispatch:
   push:
@@ -215,10 +216,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 </pre>
+<p>Commit everything and push to GitHub. You should now be able to navigate to your blog at https://{your_github_id}.github.io/{repoName}/, and if everything worked right you can publish new posts just by committing them to the repo!</p>
 </section>
 <section id="why-to-start-a-blog" class="level2">
 <h2 class="anchored" data-anchor-id="why-to-start-a-blog">Why to Start a Blog</h2>
-<p>I hope you find this post useful, but I must admit: I created it as much for my own benefit as yours! A very wise man once said that “The only difference between screwing around and science is writing it down.” I plan to use this blog to document and catalog any interesting projects I happen into, as an upgrade to my old “sticky note scribbles” system.</p>
+<p>I hope you find this post useful, but I must admit: I created it as much for my own benefit as yours! A very wise man (Adam Savage) once said that “The only difference between screwing around and science is writing it down.” I plan to use this blog to document and catalog any interesting projects I happen into, as an upgrade to my old “sticky note scribbles” system. That’s my “Why”, but I’m sure if you’re reading this you already have a “Why” of your own! If you have any questions about what I did here or just want to say hi, feel free to drop me a message.</p>
 
 
 </section>
