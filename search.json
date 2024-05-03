@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "quartoBlog",
     "section": "",
     "text": "How to Start a Blog\n\n\n\n\n\n\nwalkthrough\n\n\n\n\n\n\n\n\n\nMay 3, 2024\n\n\nHenry Ker\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 3, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   },
   {
     "objectID": "posts/how-to-start-a-blog/index.html",
@@ -47,19 +61,5 @@
     "title": "How to Start a Blog",
     "section": "Why to Start a Blog",
     "text": "Why to Start a Blog\nI hope you find this post useful, but I must admit: I created it as much for my own benefit as yours! A very wise man (Adam Savage) once said that “The only difference between screwing around and science is writing it down.” I plan to use this blog to document and catalog any interesting projects I happen into, as an upgrade to my old “sticky note scribbles” system. That’s my “Why”, but I’m sure if you’re reading this you already have a “Why” of your own! If you have any questions about what I did here or just want to say hi, feel free to drop me a message."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
   }
 ]
